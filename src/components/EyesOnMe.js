@@ -4,7 +4,7 @@ import React from 'react';
 class EyesOnMe extends React.Component {
   focus = () => console.log('Good!')
   blur = () => console.log(`Hey! Eyes on me!`)
-  render(){
+  render() {
     return(
     <button onFocus={this.focus} onBlue={this.blur}>Eyes on me!</button>
     )
