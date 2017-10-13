@@ -3,8 +3,9 @@ import React from 'react'
 
 class EyesOnMe extends React.Component(
   render(){
-    <button>
+    return(
+    <button onFocus={this.onFocus} onBlue={this.onBlur}>
     </button>
-    
+    )
   }
 )
